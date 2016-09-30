@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    tools:context="com.netforceinfotech.wilpcommunity.MainActivity">
+
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@drawable/circular_bg_fill"
+        android:text="WILP"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the \nWILP Community" />
+</LinearLayout>
